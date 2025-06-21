@@ -18,6 +18,8 @@ This is a Streamlit + FastAPI based LLM-powered assistant that can:
 ---
 
 ## 📁 Project Structure
+
+```
 smart-assistant/
 │
 ├── backend/
@@ -42,7 +44,7 @@ smart-assistant/
 ├── venv
 |
 └── README.md 
-
+```
 
 ---
 
