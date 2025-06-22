@@ -25,14 +25,14 @@ smart-assistant/
 ├── backend/
 │ ├── app/
 │ │ ├── utils/
-│ │ │ ├── qa.py # QA logic (ask anything)
-│ │ │ ├── challenge.py # Challenge mode (Q&A evaluation)
-│ │ │ ├── parser.py # Document parsing (PDF/TXT)
-│ │ │ ├── summarizer.py # Auto-summary
-| | |── routes.py # API endpoints
-│ │ ├── main.py # FastAPI app instance
-│ │ ├── state.py # Global document memory
-│── .env # Environment file (Groq API key)
+│ │ │ ├── qa.py                # QA logic (ask anything)
+│ │ │ ├── challenge.py         # Challenge mode (Q&A evaluation)
+│ │ │ ├── parser.py            # Document parsing (PDF/TXT)
+│ │ │ ├── summarizer.py        # Auto-summary
+| | |── routes.py              # API endpoints
+│ │ ├── main.py                # FastAPI app instance
+│ │ ├── state.py               # Global document memory
+│── .env                       # Environment file (Groq API key) - > ⚠️ `.env` is excluded from Git.
 ├── requirements.txt
 |
 ├── frontend/
@@ -48,7 +48,7 @@ smart-assistant/
 
 ---
 
-## 🛠️ Setup Instructions
+## 📦 Setup & Installation
 
 ### 1. 🔑 Get a Groq API Key
 
@@ -126,9 +126,9 @@ Via Groq API:
 * mixtral-8x7b-instruct
 
 ## 🧠 Tech Stack
-* Backend: FastAPI
-* Frontend: Streamlit
-* LLM API: Groq
+* Backend: FastAPI    ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-teal)
+* Frontend: Streamlit ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-orange)
+* LLM API: Groq       ![Groq](https://img.shields.io/badge/LLM-Groq_LLaMA3-red)
 
 ---
 # 📌 Project Objective:
@@ -148,4 +148,10 @@ The goal was to build an AI-powered assistant that is document-aware and capable
 * Auto Summary: Displays a short summary (≤150 words) as soon as a document is uploaded.
 * Justified Responses: Every response is backed by a referenced snippet or paragraph.
 * Answer Highlighting (Bonus Feature Implemented): Visually shows the document excerpt that the answer is based on.
+
+
+### 🖼 Sample Outputs
+
+Screenshots demonstrating key features (summary, QA, evaluation, etc.) are available in the [`Sample_Outputs/`](./Sample_Outputs) folder.
+
 
